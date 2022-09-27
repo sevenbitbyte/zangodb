@@ -29,14 +29,20 @@
     "url": "https://github.com/erikolson186/zangodb/issues"
   },
   "homepage": "https://github.com/erikolson186/zangodb#readme",
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "dependencies": {
     "clone": "^2.1.1",
     "deepmerge": "^2.0.0",
-    "memoizee": "^0.4.5",
+    "memoizee": "github:sevenbitbyte/memoizee#hash-patch",
     "object-hash": "^1.1.8",
     "q": "^1.5.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-core": "^6.26.0",
     "browserify": "^14.4.0",
     "chai": "^4.0.2",
     "fake-indexeddb": "^2.0.3",
@@ -44,7 +50,6 @@
     "gulp-babel": "^7.0.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
-    "babel-core": "^6.26.0",
     "mocha": "^4.0.1",
     "run-sequence": "^2.1.0",
     "vinyl-buffer": "^1.0.0",
