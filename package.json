@@ -35,7 +35,7 @@
   "dependencies": {
     "clone": "^2.1.1",
     "deepmerge": "^2.0.0",
-    "memoizee": "github:sevenbitbyte/memoizee#hash-patch",
+    "memoizee": "https://github.com/sevenbitbyte/memoizee#hash-patch",
     "object-hash": "^1.1.8",
     "q": "^1.5.0"
   },
